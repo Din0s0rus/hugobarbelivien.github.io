@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Marked to Ascend",
+    "desc": "Jeu 2D de type donjon, salle par salle. Actuellement en développement. Où le joueur explore des donjons générés, combat des ennemis et progresse avec des mécaniques roguelike.",
+    "tech": [
+      "Unity",
+      "C#"
+    ],
+    "github": "",
+    "demo": ""
+  },
+  {
+    "title": "Dungeon Crawler 2D",
+    "desc": "Jeu d'exploration de donjon en 2D. Un dungeon crawler classique avec exploration, combats et collecte d'objets. Projet réalisé pour apprendre Unity.",
+    "tech": [
+      "Unity",
+      "C#"
+    ],
+    "github": "",
+    "demo": ""
+  },
+  {
+    "title": "Gestionnaire de dépenses",
+    "desc": "Application web orientée usage réel pour gérer ses dépenses personnelles. Permet de suivre ses dépenses, catégoriser ses achats et visualiser ses habitudes de consommation.",
+    "tech": [
+      "PHP",
+      "MySQL",
+      "HTML/CSS",
+      "JavaScript"
+    ],
+    "github": "",
+    "demo": ""
+  }
+]

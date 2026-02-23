@@ -1,0 +1,37 @@
+{
+  "hardSkills": [
+    "PHP",
+    "Python",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "SQL",
+    "C#",
+    "Prompt Engineering (IA)"
+  ],
+
+  "environments": [
+    "Arch Linux",
+    "Windows 10/11",
+    "Virtualisation (VMware, VirtualBox)"
+  ],
+
+  "softSkills": [
+    "Esprit d'équipe",
+    "Créativité",
+    "Analyse",
+    "Adaptabilité",
+    "Autonomie"
+  ],
+
+  "tools": [
+    "Visual Studio Code",
+    "PowerShell",
+    "Unity",
+    "Oracle VM VirtualBox",
+    "VMware Workstation",
+    "Pixlr",
+    "CapCut",
+    "Canva"
+  ]
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hugo's Portfolio - Interactive Terminal Interface">
+    <title>hugo@portfolio ~ Terminal</title>
+    
+    <!-- Google Fonts - JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="/portfolio-hugo/terminal/style.css">
+</head>
+<body>
+    <!-- CRT Screen Container -->
+    <div class="crt">
+        <!-- Scanlines Overlay -->
+        <div class="scanlines"></div>
+        
+        <!-- Terminal Container -->
+        <div class="terminal" id="terminal">
+            <!-- Terminal Output Area -->
+            <div class="terminal-output" id="output">
+                <!-- Welcome message will be inserted by JS -->
+            </div>
+            
+            <!-- Input Line -->
+            <div class="input-line">
+                <span class="prompt">hugo@portfolio:~$</span>
+                <input 
+                    type="text" 
+                    id="command-input" 
+                    class="command-input" 
+                    autocomplete="off" 
+                    autocapitalize="off" 
+                    spellcheck="false"
+                    aria-label="Terminal command input"
+                >
+                <span class="cursor"></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="/portfolio-hugo/terminal/script.js"></script>
+</body>
+</html>
